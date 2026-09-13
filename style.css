@@ -1,0 +1,353 @@
+/* ================= BODY ================= */  
+body {  
+    font-family: 'Courier New', Courier, monospace;  
+    margin: 0;  
+    background-color: #f4f6f8;  
+    color: #222;  
+}  
+
+/* ================= HEADER ================= */  
+.header {  
+    background-color: #0e2842;  
+    color: white;  
+    padding: 20px;  
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-around;  
+    align-items: center;  
+    flex-wrap: wrap;  
+}  
+
+.header h1 {  
+    margin: 0;  
+    font-size: 30px;  
+}  
+
+.header p {  
+    margin: 5px 0;  
+}  
+
+/* ================= NAV ================= */  
+nav {  
+    display: flex;  
+    gap: 35px;  
+    flex-wrap: wrap;  
+}  
+
+nav a {  
+    color: white;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+nav a:hover {  
+    text-decoration: underline;  
+    color: cyan;  
+}  
+
+/* ================= MAIN ================= */  
+main {  
+    width: 80%;  
+    max-width: 1200px;  
+    margin: 30px auto;  
+}  
+
+/* ================= CARD ================= */  
+.card {  
+    background-color: white;  
+    padding: 25px;  
+    margin-bottom: 20px;  
+    border: 2px solid #d9e0e6;  
+    border-radius: 20px;  
+    box-sizing: border-box;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+}  
+
+.card h2 {  
+    color: #17324d;  
+    font-size: 30px;  
+    margin-top: 0;  
+}  
+
+.description {  
+    font-size: 16px;  
+    line-height: 1.6;  
+    text-align: justify;  
+}  
+
+/* ================= BUTTON ================= */  
+.button {  
+    display: inline-block;  
+    background-color: #17324d;  
+    color: white;  
+    padding: 10px 18px;  
+    margin-top: 10px;  
+    border-radius: 6px;  
+    text-decoration: none;  
+    border: none;  
+    font-family: inherit;  
+    cursor: pointer;  
+}  
+
+.button:hover {  
+    background-color: #254e73;  
+}  
+
+.button:focus {  
+    outline: 3px solid #ffbf00;  
+    outline-offset: 3px;  
+}  
+
+/* ================= HOME ================= */  
+.home {  
+    display: flex;  
+    flex-direction: row;  
+    justify-content: space-around;  
+    align-items: center;  
+    gap: 40px;  
+    flex-wrap: wrap;  
+    min-height: 400px;  
+}  
+
+.home-text {  
+    flex: 1;  
+    min-width: 300px;  
+}  
+
+.home-text h2 {  
+    font-size: 38px;  
+}  
+
+.home-text h2 span {  
+    color: #17324d;  
+}  
+
+.welcome {  
+    color: #17324d;  
+    font-weight: bold;  
+}  
+
+/* ================= PROFILE ================= */  
+.profile-box {  
+    background-color: #f4f6f8;  
+    border: 2px solid #d9e0e6;  
+    border-radius: 15px;  
+    padding: 20px;  
+    text-align: center;  
+    width: 300px;  
+}  
+
+.profile-box img {  
+    width: 300px;  
+    height: 300px;  
+    object-fit: cover;  
+    border-radius: 75%;  
+    border: 5px solid #17324d;  
+}  
+
+.profile-box h3 {  
+    color: #17324d;  
+    margin-bottom: 5px;  
+}  
+
+/* ================= ABOUT ================= */  
+.about-info {  
+    display: flex;  
+    justify-content: space-around;  
+    gap: 20px;  
+    flex-wrap: wrap;  
+    margin-top: 25px;  
+}  
+
+.about-item {  
+    background-color: #f4f6f8;  
+    border: 1px solid #d9e0e6;  
+    border-radius: 8px;  
+    padding: 20px;  
+    flex: 1;  
+    min-width: 200px;  
+}  
+
+.about-item h3 {  
+    color: #17324d;  
+}  
+
+/* ================= SKILLS ================= */  
+.skills {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: center;  
+    gap: 20px;  
+}  
+
+.skill {  
+    background-color: #f4f6f8;  
+    border: 2px solid #d9e0e6;  
+    border-radius: 10px;  
+    width: 45%;  
+    box-sizing: border-box;  
+}  
+
+.skill summary {  
+    padding: 20px;  
+    cursor: pointer;  
+    font-size: 18px;  
+    font-weight: bold;  
+    color: #17324d;  
+}  
+
+.skill summary:hover {  
+    background-color: #e9f0f5;  
+}  
+
+.skill summary span {  
+    margin-right: 20px;  
+    color: #777;  
+}  
+
+.skill-content {  
+    padding: 20px;  
+    border-top: 1px solid #d9e0e6;  
+    line-height: 1.6;  
+}  
+
+.skill-content h3 {  
+    color: #17324d;  
+}  
+
+/* ================= PROJECTS ================= */
+.projects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #f4f6f8;
+    border: 1px solid #d9e0e6;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.project-tag {
+    display: inline-block;
+    background-color: #17324d;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.semester {
+    font-weight: bold;
+    color: #17324d;
+}
+
+.language {
+    font-style: italic;
+    color: #555;
+}
+
+/* ================= CONTACT ================= */  
+.contact {  
+    display: flex;  
+    gap: 40px;  
+    flex-wrap: wrap;  
+}  
+
+.contact-info {  
+    flex: 1;  
+    min-width: 280px;  
+    background-color: #f4f6f8;  
+    padding: 25px;  
+    border-radius: 10px;  
+}  
+
+.contact-info h3 {  
+    color: #17324d;  
+}  
+
+.contact-info a {  
+    color: #17324d;  
+}  
+
+form {  
+    flex: 1;  
+    min-width: 280px;  
+}  
+
+label {  
+    display: block;  
+    font-weight: bold;  
+    margin-bottom: 5px;  
+}  
+
+input,  
+textarea {  
+    width: 100%;  
+    padding: 12px;  
+    margin-bottom: 15px;  
+    border: 1px solid #ccd5dc;  
+    border-radius: 5px;  
+    box-sizing: border-box;  
+    font-family: inherit;  
+}  
+
+input:focus,  
+textarea:focus {  
+    outline: 2px solid #17324d;  
+}  
+
+/* ================= FOOTER ================= */  
+.footer {  
+    background-color: #0e2842;  
+    color: white;  
+    text-align: center;  
+    padding: 25px;  
+}  
+
+/* ================= RESPONSIVE ================= */  
+@media (max-width: 800px) {  
+    .header {  
+        flex-direction: column;  
+        gap: 15px;  
+        text-align: center;  
+    }  
+
+    .home {  
+        flex-direction: column;  
+        text-align: center;  
+    }  
+
+    .skill {  
+        width: 100%;  
+    }  
+
+    .contact {  
+        flex-direction: column;  
+    }  
+}  
+
+@media (max-width: 500px) {  
+    main {  
+        width: 94%;  
+    }  
+
+    nav {  
+        gap: 15px;  
+        justify-content: center;  
+    }  
+
+    nav a {  
+        font-size: 13px;  
+    }  
+
+    .home-text h2 {  
+        font-size: 30px;  
+    }  
+
+    .profile-box {  
+        width: 220px;  
+    }  
+}
